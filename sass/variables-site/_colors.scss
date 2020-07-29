@@ -1,0 +1,42 @@
+// Brand Colour 1 (Blue)
+$color__brand-1: #00AEEF;
+$color__brand-1-mid: mix($color__brand-1, white, 50%);
+$color__brand-1-light: mix($color__brand-1, white, 20%);
+$color__brand-1-bright: #009fe3;
+
+// Brand Colour 2 (Red)
+$color__brand-2: #F4524D;
+$color__brand-2-mid: mix($color__brand-2, white, 50%);
+$color__brand-2-light: mix($color__brand-2, white, 20%);
+$color__brand-2-dark: mix($color__brand-2, black, 65%);
+
+// Tones
+$color__tone-0: #fff; // White
+$color__tone-100: #000; // Black
+$color__tone-5: mix($color__tone-100, white, 5%);
+$color__tone-10: #dfdcde;
+$color__tone-20: mix($color__tone-100, white, 20%);
+$color__tone-40: #787878;
+$color__tone-60: #555;
+$color__tone-80: #222;
+
+// Text
+$color__text-body: $color__tone-80;
+$color__text-inputs: rgba($color__text-body, 0.5);
+
+// Links
+$color__link: $color__brand-1;
+$color__link-visited: $color__brand-1;
+$color__link-hover: mix($color__brand-1, black, 65%);
+
+// Notices
+$color__background-success: $color__brand-1-light;
+$color__background-notice: $color__tone-10;
+$color__background-error: $color__brand-2-mid;
+
+// 3rd Party
+$color__twitter: #1da1f2;
+$color__facebook: #3b5998;
+$color__youtube: #cd201f;
+$color__linkedin: #0077b5;
+$color__instagram: #fb3958;

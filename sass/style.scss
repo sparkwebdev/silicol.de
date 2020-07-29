@@ -1,0 +1,63 @@
+/*!
+Theme Name: Silicol.de
+Theme URI: http://silicolde.com/
+Template: silicol
+Author: 
+Author URI: 
+Description: 
+Version: 1.0.2e
+Text Domain: silicolde
+Tags:
+*/
+
+@import "variables-site/variables-site";
+
+@import "../../silicol/sass/mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "../../silicol/sass/normalize";
+
+/*--------------------------------------------------------------
+# Modules
+--------------------------------------------------------------*/
+@import "../../silicol/sass/modules/accessibility";
+@import "../../silicol/sass/modules/alignments";
+@import "../../silicol/sass/modules/clearings";
+@import "../../silicol/sass/modules/embeds";
+
+/*--------------------------------------------------------------
+# HTML Elements
+--------------------------------------------------------------*/
+@import "../../silicol/sass/elements/elements";
+
+/*--------------------------------------------------------------
+# Structure / Layout
+--------------------------------------------------------------*/
+@import "../../silicol/sass/structure/structure";
+
+/*--------------------------------------------------------------
+# Wordpress
+--------------------------------------------------------------*/
+@import "../../silicol/sass/wordpress/wordpress";
+
+/*--------------------------------------------------------------
+# Design
+--------------------------------------------------------------*/
+@import "../../silicol/sass/design/design";
+
+/*--------------------------------------------------------------
+# Plugins (3rd Party Plugins etc)
+--------------------------------------------------------------*/
+@import "../../silicol/sass/plugins/plugins";
+
+/*--------------------------------------------------------------
+# Legacy browsers (via Modernizr)
+--------------------------------------------------------------*/
+@import "../../silicol/sass/legacy/legacy";
+
+/*--------------------------------------------------------------
+# Overrides
+--------------------------------------------------------------*/
+@import "design/design";
